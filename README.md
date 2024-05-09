@@ -12,7 +12,7 @@ Client-Server architecture written on top of UDP only communication.
 >Reference - https://docs-multiplayer.unity3d.com/netcode/current/components/networktransform/#:~:text=Graphic%20of%20a%20buffered%20tick%20between%20the%20server%20and%20a%20client%20(that%20is%2C%20interpolation)
 
 * Input from client requires server acknowledgement to prevent unexpected input related behaviors. Performance wise, there is almost no issue as inputs are invoked immediately, just like server RPC in Netcode. There might be concerns about input latency when it comes to quick successive player inputs, but current tests do not indicate input latency issues.
-* At 120 tick-rate, you can expect about outgoing 0.3 Mbps per transform (no scale) per client. Lightweight Network does not yet implement position or rotational threshold, so bandwidth can still be optimized.
+* At 120 tick-rate, you can expect about outgoing 0.04 Mbps per transform (no scale) per client. Lightweight Network does not yet implement position or rotational threshold, so bandwidth can still be optimized.
 
 ## Design Diagrams:
 
