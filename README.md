@@ -4,7 +4,7 @@
 To implement a lightweight multiplayer networking solution to eliminate latency at all costs. This is necessary for smooth, real-time playability in extended reality within local network.
 
 ## General structure: 
-Client-Server architecture written on top of peer-to-peer, UDP only communication.
+Client-Server architecture written on top of UDP only communication.
 
 ## Features and Specs:
 * No server or client RPC’s. Server streams each network object’s state as serialized representation, likewise for player controller positions and joystick axes. For serialization, this project uses ProtoBuf.
