@@ -15,12 +15,18 @@ Client-Server architecture written on top of UDP only communication.
 * At 120 tick-rate, you can expect about outgoing 0.04 Mbps per transform (no scale) per client. Lightweight Network does not yet implement position or rotational threshold, so bandwidth can still be optimized.
 
 ## Design Diagrams:
-
 <p align="center">
   <img src="README_RESOURCES/ConnectionPhase.png"/>
   <br>
   <img src="README_RESOURCES/Session.png"/>
 </p>
+
+## Result:
+<p align="center">
+  <img src="README_RESOURCES/FoosballDemo.gif"/>
+</p>
+
+> Unfortunately, the Foosball demo is not included in this project as it uses licensed 3D model.
 
 ## Testing considerations:
 * If you are running network tests with Unity Editor on Windows, make sure to allow Unity Editor through firewall. The editor tends not to play nicely with Windows Firewall.
