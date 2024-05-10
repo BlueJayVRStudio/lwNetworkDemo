@@ -27,6 +27,7 @@ Client-Server architecture written on top of UDP only communication.
 </p>
 
 > Unfortunately, the Foosball demo is not included in this project as it uses licensed 3D model.
+> https://youtu.be/yeNRIM0vIiE
 
 ## Testing considerations:
 * If you are running network tests with Unity Editor on Windows, make sure to allow Unity Editor through firewall. The editor tends not to play nicely with Windows Firewall.
