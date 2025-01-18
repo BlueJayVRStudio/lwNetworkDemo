@@ -9,10 +9,11 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Aa]ssets/[Oo]culus
 
 # asset store stuff? I don't know I just saw this on https://github.com/Corysia/Unity-Oculus-Example/blob/master/.gitignore 
-# TODO: check in the near future?
-Assets/AssetStoreTools*
+# TODO: Maybe it'll be relevant in the future? 
+/Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
@@ -22,7 +23,7 @@ Assets/AssetStoreTools*
 Assets/Resources/OvrAvatarSettings.asset
 Assets/Resources/OculusPlatformSettings.asset
 Assets/Resources/OculusPlatformSettings.asset.meta
-[Aa]ssets/[Oo]culus
+
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
