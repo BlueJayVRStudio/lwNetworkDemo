@@ -9,7 +9,20 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+
+# asset store stuff? I don't know I just saw this on https://github.com/Corysia/Unity-Oculus-Example/blob/master/.gitignore 
+# TODO: check in the near future?
+Assets/AssetStoreTools*
+
+# Visual Studio cache directory
+.vs/
 /.vscode/
+
+# Ignore these Oculus files because they store your secret App ID
+Assets/Resources/OvrAvatarSettings.asset
+Assets/Resources/OculusPlatformSettings.asset
+Assets/Resources/OculusPlatformSettings.asset.meta
+[Aa]ssets/[Oo]culus
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
