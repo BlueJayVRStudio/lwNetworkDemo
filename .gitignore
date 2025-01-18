@@ -13,7 +13,7 @@
 
 # asset store stuff? I don't know I just saw this on https://github.com/Corysia/Unity-Oculus-Example/blob/master/.gitignore 
 # TODO: Maybe it'll be relevant in the future? 
-# /[Aa]ssets/[Oo]culus/
+/[Aa]ssets/[Oo]culus/
 /Assets/AssetStoreTools*
 
 # Visual Studio cache directory
