@@ -9,7 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-/[Aa]ssets/[Oo]culus
+/[Aa]ssets/[Oo]culus/
 
 # asset store stuff? I don't know I just saw this on https://github.com/Corysia/Unity-Oculus-Example/blob/master/.gitignore 
 # TODO: Maybe it'll be relevant in the future? 
